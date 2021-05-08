@@ -1,0 +1,34 @@
+.facts {
+  padding: 2rem;
+  overflow: auto;
+  height: 35rem;
+}
+.my-fact {
+  margin-top: 1rem;
+  padding: 1.5rem;
+  border-radius: 3px;
+  color: white;
+  list-style: none;
+  text-align: center;
+  position: relative;
+}
+
+.remove-btn:hover {
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: .5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

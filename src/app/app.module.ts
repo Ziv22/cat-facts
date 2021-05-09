@@ -1,25 +1,26 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AllFactsComponent } from './all-facts/all-facts.component';
 import { MyFactsComponent } from './my-facts/my-facts.component';
-import { FactComponent } from './fact/fact.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { AddFactComponent } from './add-fact/add-fact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AllFactsComponent,
     MyFactsComponent,
-    FactComponent
+    AddFactComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule,
     NgbModule,
   ],
   providers: [],

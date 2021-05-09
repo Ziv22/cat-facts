@@ -1,12 +1,18 @@
 <h3>All Facts:</h3>
+<h5 *ngIf="!facts.length" class="text-danger">
+  Looks like something went wrong...
+  <br />
+  Make sure your the server is running
+</h5>
 <ngb-carousel *ngIf="facts" class="bg-dark wrapper">
   <ng-template ngbSlide *ngFor="let fact of facts">
     <div class="picsum-img-wrapper">
       <div class="fact-wrapper">
         <h6 class="text-success" *ngIf="localFacts?.includes(fact._id)">
-          - Saved - 
+          - Saved -
         </h6>
         {{ fact.text }}
+
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"

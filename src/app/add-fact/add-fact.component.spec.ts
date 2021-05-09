@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FactComponent } from './fact.component';
+import { AddFactComponent } from './add-fact.component';
 
-describe('FactComponent', () => {
-  let component: FactComponent;
-  let fixture: ComponentFixture<FactComponent>;
+describe('AddFactComponent', () => {
+  let component: AddFactComponent;
+  let fixture: ComponentFixture<AddFactComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ FactComponent ]
+      declarations: [ AddFactComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(FactComponent);
+    fixture = TestBed.createComponent(AddFactComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

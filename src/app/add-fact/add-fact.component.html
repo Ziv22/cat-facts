@@ -1,0 +1,18 @@
+<h3>Add Facts:</h3>
+
+<label for="new-fact"></label>
+<input
+  id="new-fact"
+  [(ngModel)]="newFact"
+  placeholder="New Fact"
+  class="add-fact-text"
+/>
+
+<button class="add-fact-button" [disabled]="!newFact" (click)="addFact()">
+  Add
+</button>
+
+<h3>Facts you added:</h3>
+<ul class="facts">
+  <li *ngFor="let fact of facts" class="my-fact bg-dark">{{ fact.text }}</li>
+</ul>

@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AllFactsComponent } from './all-facts/all-facts.component';
@@ -20,6 +20,7 @@ import { AddFactComponent } from './add-fact/add-fact.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule,
     NgbModule,
   ],
   providers: [],

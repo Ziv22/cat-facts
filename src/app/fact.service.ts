@@ -2,7 +2,6 @@ import { Injectable } from '@angular/core';
 import { Observable,throwError ,of } from 'rxjs';
 import { catchError, map, tap } from 'rxjs/operators';
 import { Fact } from './fact';
-import { FACTS } from './mock-facts';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 @Injectable({

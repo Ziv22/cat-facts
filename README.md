@@ -1,27 +1,24 @@
 # CatFacts
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.
+Welcome To CatFacts.
+The app that brings you fascinating facts about cats!
+In order to develop this project I used: Angular(11.2.12), Node.js & MongoDB with mongoose library.
 
-## Development server
+## Setup
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Pre-request
 
-## Code scaffolding
+    * Make sure to have node installed - https://nodejs.org/en/download/.
+    * Make sure to have MongoDB installed - https://www.mongodb.com/try/download/community.
+    * Then make sure to run "mongod" in background while working with the app.
+    * Make sure to have Angular installed - https://angular.io/guide/setup-local#install-the-angular-cli.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Setup the project
 
-## Build
+1. Clone the repository from https://github.com/Ziv22/cat-facts.
+2. Run npm install in the project's directory.
+3. Make sure you've ran "mongod" on the background.
+4. Navigate to the ./Server directory and run "node server.js".
+5. Navigate back to the project's root and run "ng serve --open", this will start the project and run it on your default browser. in http://localhost:4200/all-facts
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Now you're ready to use the app :]

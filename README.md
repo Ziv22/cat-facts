@@ -8,10 +8,10 @@ In order to develop this project I used: Angular(11.2.12), Node.js & MongoDB wit
 
 ### Pre-request
 
-    * Make sure to have node installed - https://nodejs.org/en/download/.
-    * Make sure to have MongoDB installed - https://www.mongodb.com/try/download/community.
+    * Make sure to have node installed  https://nodejs.org/en/download/.
+    * Make sure to have MongoDB installed  https://www.mongodb.com/try/download/community.
     * Then make sure to run "mongod" in background while working with the app.
-    * Make sure to have Angular installed - https://angular.io/guide/setup-local#install-the-angular-cli.
+    * Make sure to have Angular installed  https://angular.io/guide/setup-local#install-the-angular-cli.
 
 ### Setup the project
 

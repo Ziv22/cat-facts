@@ -110,3 +110,11 @@ ngb-carousel {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+.material-icons.red600 {
+  color: #d9534f;
+}
+
+.material-icons.cayan {
+  color: #5bc0de;
+}
